@@ -439,7 +439,7 @@ module ActiveRecord
               end
 
               # keep using master after write
-              connection_stack.replace([ conn ])
+              # connection_stack.replace([ conn ])
             end
           end
         end
